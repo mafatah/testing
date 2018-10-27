@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - apt-get update
+  build:
+    commands:
+      - apt-get update
+artifacts:
+  files:
+    - '**/*'
